@@ -1,0 +1,27 @@
+.itens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+    justify-content: space-between;
+    
+}
+
+
+.botao{
+    border: none;
+    background-color: #212529;
+    align-self: end;
+    color: white;
+    img{
+        height: 15px;
+    }
+}
+
+.lista{
+    ul{
+        margin: 0;
+        list-style: none;
+    }
+        
+    }

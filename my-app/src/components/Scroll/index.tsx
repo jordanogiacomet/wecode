@@ -10,11 +10,14 @@ export default function Scroll(){
         <Row >
                 <div className={style.cardArea}>
                     
-                    
+                     
                         <Figure className={style.cardItem}>
                            
+                           <div className={style.produtosInfo}>
                                 <Figure.Image src={img_1} className={style.cardImg}/>
                                 <Figure.Caption>Produto 1</Figure.Caption>
+                           </div>
+
                            
                            
                         </Figure>
@@ -22,10 +25,10 @@ export default function Scroll(){
                         
                     
                         <Figure className={style.cardItem}>
-                            
-                                <Figure.Image src={img_2}/>
+                         <div className={style.produtosInfo}>
+                                <Figure.Image src={img_2} className={style.cardImg}/>
                                 <Figure.Caption>Produto 2</Figure.Caption>
-                       
+                        </div>
                    </Figure>
                         
                         
@@ -33,10 +36,10 @@ export default function Scroll(){
                     
                         
                             <Figure className={style.cardItem}>
-                           
-                                <Figure.Image src={img_3}/>
+                            <div className={style.produtosInfo}>
+                                <Figure.Image src={img_3} className={style.cardImg}/>
                                 <Figure.Caption>Produto 3</Figure.Caption>
-                       
+                            </div>
                   
                              </Figure>
                         

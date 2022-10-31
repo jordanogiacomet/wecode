@@ -3,19 +3,22 @@
     flex-direction: row;
     flex-wrap: nowrap;
     overflow-x: auto;
-    
+
+    gap: 10px;
     
     
     
 
     .cardItem{
-        margin: 10px;
-        
-        
+        position: relative;
+        .produtosInfo{
+            
+        }
+       
         
         .cardImg{
-            
-           
+            max-width: 500px;
+            height: 360px;
         }
     
     }

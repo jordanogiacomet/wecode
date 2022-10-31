@@ -1,0 +1,47 @@
+.formulario{
+
+    margin: 0 15px;
+    display: flex;
+
+    .formLabel{
+        font-size: 1.5em;
+        font-weight: lighter;
+        color: white;
+        text-decoration: underline;
+        word-break:keep-all;
+        display: block;
+      
+    }
+
+    .formText{
+        color:white;
+        font-weight: lighter;
+       
+    }
+
+    .formSubmit{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    
+        .formControl{
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        
+        .formBotao{
+            margin-top: 10px;
+            padding: 10px 35px; 
+
+            img{
+                margin: 0;
+                height: 15px;
+            } 
+        }
+
+
+       
+    
+    }
+
+}
